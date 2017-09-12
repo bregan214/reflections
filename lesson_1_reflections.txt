@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By showing me where the difference in code was, diff helped me see what went wrong between the new
+and the old code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Seeing how you improved you code over the course of a project allows you to learn from yourself
+and make yourself a better programmer. Reviewing how you optimized your code is also a good
+way to reinforce tricks that you once used to improve your code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+Manually Saving gives the user complete autonomy to decide the best course of saving
+based on what they have written. It allows the user to use the saving method that
+makes the most logical sense to him or her. However, it is prone to human error
+as one might forget to save or have bad judgment on when to save, making the
+saving process ineffective.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+Often times files of code relate to one another and operate together to do
+something. This means that changes to one file would affect another file and
+in order to make the code function, each file would have to be manually updated
+independently from one another. This is not a problem with text files like the
+ones Google Docs manages because it is very rare that text files will rely on
+one another for them to function, which means it's ok if they are all updated
+separately.
+
+How can you use the commands git log and git diff to view the history of files?
+git log will show the all of the commits made by the user, and these can be
+compared to each other using git diff.
+
+How might using version control make you more confident to make changes that
+could break something?
+If  you use version control and breaks a program during a session, you can always
+check back with older versions to find working versions and make sure not to
+break your program again using the working code from the earlier versions. It
+always lets one destroy a program and always being able to undo. It's kind of
+like a flight simulator because the 'reset' button gives pilots way more confidence
+to maneuvers that might break the plane or worse in real life.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to use Git to keep track of my work during the school year.
